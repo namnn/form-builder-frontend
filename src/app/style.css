@@ -1,0 +1,39 @@
+.column50 {
+  float: left;
+  width: 50%;
+}
+
+.column30 {
+  float: left;
+  width: 30%;
+}
+
+.column70 {
+  float: left;
+  width: 70%;
+}
+
+.column25 {
+  float: left;
+  width: 25%;
+}
+
+.column75 {
+  float: left;
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.active {
+  background-color: lightblue;
+}
+
+.clickable {
+  cursor: pointer;
+}
